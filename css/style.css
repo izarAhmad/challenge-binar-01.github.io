@@ -1,0 +1,301 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: poppins;
+  box-sizing: border-box;
+}
+
+.whatsapp {
+  font-family: Roboto, Arial, Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  right: 5%;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+}
+.accordion-item {
+  border-radius: 10px;
+  padding: 10px;
+}
+.accordion .card {
+  border-radius: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: ease-in-out 0.2s;
+}
+
+.icons {
+  display: block;
+  height: 42px;
+  margin-bottom: 50px;
+}
+
+.icons span {
+  display: block;
+  left: 5px;
+  top: 5px;
+  transform: translate(0, 10px);
+}
+
+.header {
+  background: linear-gradient(292.92deg, #e6e6e4 7.23%, #f0e8e2 97.74%);
+}
+.navbar-brand {
+  font: 32px Viga;
+  margin-left: 150px;
+  width: "7%";
+}
+.navbar {
+  margin-left: 20px;
+  top: 30px;
+  position: fixed;
+  z-index: 1000;
+}
+.disabled {
+  margin-right: 150px;
+  border-radius: 6px;
+}
+.disabled button {
+  background: transparent;
+  border: 1px solid #1f1d2a;
+  width: 100px;
+  border-radius: 8px;
+}
+.people {
+  width: 500px;
+  height: 500px;
+
+  top: 188px;
+}
+.wafixed {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+.service h4 {
+  font-family: poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.started {
+  margin-left: 60px;
+  height: 70px;
+  width: 170px;
+
+  top: 556px;
+  border-radius: 6px;
+  border-color: none;
+  background: #96c67f;
+}
+.text-center small {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #1f1d2a;
+}
+.career {
+  padding: 20px;
+}
+.company {
+  width: 45%;
+}
+.career p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+}
+.career h4 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+}
+.garis-vector {
+  position: absolute;
+  width: 114.5px;
+  height: 0px;
+  left: 798px;
+  top: 1075px;
+
+  border: 6px solid #96c67f;
+}
+.why-us .card-body {
+  height: 100%;
+  border-radius: 15px;
+}
+.why-us h3 {
+  padding-top: 90px;
+}
+
+.why-us img {
+  padding-top: 20px;
+}
+.why-us .card-body h6 {
+  padding-left: 10px;
+  font-family: poppins;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.why-us .card-body p {
+  font-family: Poppins;
+  color: rgba(155, 148, 142, 1);
+  padding-left: 10px;
+}
+
+.carouse .carousel {
+  align-items: center;
+}
+.icon {
+  align-items: center;
+
+  top: 873px;
+}
+.testimonial {
+  text-align: center;
+}
+
+.text {
+  padding-top: 90px;
+  margin-left: 60px;
+}
+.bottom .card {
+  background: #ffb988;
+  align-items: center;
+  text-align: center;
+  border-radius: 40px;
+}
+.bottom h2 {
+  font-family: Poppins;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 83px;
+  color: white;
+}
+.bottom p {
+  font-family: Poppins;
+  color: white;
+}
+
+.text h1 {
+  font-family: Poppins;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 83px;
+  text-align: left;
+}
+.text p {
+  color: rgba(155, 148, 142, 1);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.section {
+  padding-top: 40px;
+}
+.row {
+  padding-top: 70px;
+}
+
+@media screen and (max-width: 1060px) {
+  .navbar-brand {
+    width: 7%;
+  }
+  .testimonial-extra {
+    display: none;
+  }
+  .company {
+    width: 85%;
+  }
+  .people {
+    width: 600px;
+    height: 600px;
+  }
+  .navbar-brand {
+    width: 10%;
+  }
+  .text h2 {
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    width: 100%;
+    font-weight: 300;
+    line-height: 83px;
+    text-align: left;
+  }
+
+  .section {
+    padding-top: 10px;
+  }
+}
+@media screen and (min-width: 968px) {
+  .testimonial-extra img {
+    width: 200px;
+    height: 300px;
+  }
+}
+@media screen and (min-width: 1060px) {
+  .carousel {
+    display: none;
+  }
+  .testimonial-extra img {
+    width: 200px;
+    height: 300px;
+  }
+  .navbar-brand {
+    width: 7%;
+  }
+}
+@media screen and (max-width: 678px) {
+  .testimonial-extra {
+    display: none;
+  }
+  .navbar-brand {
+    width: 20%;
+  }
+  .service {
+    padding: 90px;
+  }
+  .service .service-img {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .carousel {
+    display: none;
+  }
+  .testimonial-extra {
+    text-align: center;
+  }
+  .testimonial-extra img {
+    width: 250px;
+    height: 400px;
+  }
+  .navbar-brand {
+    width: 7%;
+  }
+}
